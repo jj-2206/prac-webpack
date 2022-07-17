@@ -1,6 +1,8 @@
 # webpack
+[![Netlify Status](https://api.netlify.com/api/v1/badges/439718cf-f5e0-4561-8f3b-3fa31d0d919f/deploy-status)](https://app.netlify.com/sites/spiffy-biscochitos-19cc21/deploys)
 
-웹팩 설치 및 환경구축 연습 저장소입니다.
+웹팩 설치 및 환경구축 연습 저장소입니다.  
+https://spiffy-biscochitos-19cc21.netlify.app/
 
 - Autoprefixer  
   구형 브라우저에서도 최신의 CSS기술이 동작할 수 있도록 해주는 패키지.  
