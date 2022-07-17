@@ -3,7 +3,14 @@
 웹팩 설치 및 환경구축 연습 저장소입니다.
 
 - Autoprefixer  
-  구형 브라우저에서도 최신의 CSS기술이 동작할 수 있도록 해주는 패키지.
+  구형 브라우저에서도 최신의 CSS기술이 동작할 수 있도록 해주는 패키지.  
+   ```
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+  ```
+전 세계에서 점유율이 1% 이상인 모든 브라우저의 `Vender Prefix`를 최신 버전의 두 단계 전까지의 버전까지를 지원한다는 의미입니다.
 
   </br>
   <b>What are the CSS vendor prefixes</b>  
@@ -23,12 +30,3 @@
 
   Also Google recommends to use it (read here) and it is used in companies as Twitter and Alibaba.  
   [How to Add CSS Vendor Prefixes Automatically /medium](https://medium.com/notonlycss/how-to-add-css-vendor-prefixes-automatically-84b6f78e4d2e)  
-  </br>
-  ```
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
-}
-```
-전 세계에서 점유율이 1% 이상인 모든 브라우저의 `Vender Prefix`를 최신 버전의 두 단계 전까지의 버전까지를 지원한다는 의미입니다.
